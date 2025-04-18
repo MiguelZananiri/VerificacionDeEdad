@@ -7,8 +7,7 @@ public class VerificacionDeEdad {
         System.out.println("ESPACIO");
 
         Scanner scanner = new Scanner(System.in);
-        String nombre;
-        String juego;
+        String nombre, juego;
         int edad;
 
         System.out.println("¿Cual es tu nombre?");
@@ -29,6 +28,5 @@ public class VerificacionDeEdad {
             System.out.println("Su edad esta incorrecta");
         }
         scanner.close();
-
     }
 }
